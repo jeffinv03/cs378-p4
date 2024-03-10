@@ -1,0 +1,91 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+}
+
+.logo-left,
+.logo-right {
+    position: absolute;
+    top: 150%;
+    transform: translateY(-50%);
+    width: 10%;
+}
+
+.logo-left {
+    left: 20px; /* Adjust as needed */
+}
+
+.logo-right {
+    right: 20px; /* Adjust as needed */
+}
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
+}
+
+#buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green button color */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#pokemonData {
+    text-align: center;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff; /* White background for each list item */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    width: 50%; /* Set width to 50% */
+    display: inline-block; /* Display items inline */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+li:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+}
